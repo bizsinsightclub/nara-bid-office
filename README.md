@@ -2,7 +2,7 @@
 
 수주 실행 시스템(`nara-bid-exec`, 비공개)의 **오피스 대시보드 출력물만** 담는 공개 저장소입니다.
 
-- 주소: https://bizsinsightclub.github.io/nara-bid-office/
+- 주소: https://office.agenticcompany.p-e.kr/
 - `index.html` 하나가 전부입니다. 본문은 **AES-256-GCM 으로 암호화**돼 있고(PBKDF2-SHA256 키 유도),
   비밀번호를 입력하면 브라우저 안에서만 복호됩니다. 서버로 전송되는 것은 없습니다.
 - 여기에는 코드·제안 본문·비밀번호가 **없습니다.** 갱신은 비공개 저장소에서 `node scripts/publish-office.mjs` 로 합니다.
